@@ -1,0 +1,158 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:2:1-58:12
+MERGED from [com.android.support:appcompat-v7:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/c20c8f1ac1d2f71eba719069e716eff4/AndroidManifest.xml:17:1-24:12
+MERGED from [:volley] /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/volley/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/support-v4-22.1.1.aar/fae1f09edffaac7c46d6849bfa8c688b/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:4:5-42
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:6:5-34
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:5:5-29
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:10:22-71
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:15:5-89
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:15:22-86
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:16:22-65
+application
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:18:5-56:19
+MERGED from [com.android.support:appcompat-v7:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/c20c8f1ac1d2f71eba719069e716eff4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/c20c8f1ac1d2f71eba719069e716eff4/AndroidManifest.xml:22:5-20
+MERGED from [:volley] /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/volley/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-20
+MERGED from [:volley] /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/volley/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/support-v4-22.1.1.aar/fae1f09edffaac7c46d6849bfa8c688b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/support-v4-22.1.1.aar/fae1f09edffaac7c46d6849bfa8c688b/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:20:9-42
+	android:allowBackup
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:22:9-40
+activity#com.github.pires.obd.reader.activity.MainActivity
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:23:9-33:20
+	android:label
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:27:13-45
+	android:launchMode
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:26:13-48
+	android:configChanges
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:25:13-59
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:24:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:31:27-74
+activity#com.github.pires.obd.reader.activity.ConfigActivity
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:34:9-37:57
+	android:label
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:37:13-45
+	android:launchMode
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:36:13-48
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:35:13-79
+activity#com.github.pires.obd.reader.activity.TroubleCodesActivity
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:38:9-41:77
+	android:label
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:41:13-65
+	android:launchMode
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:39:13-85
+activity#com.github.pires.obd.reader.activity.TripListActivity
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:43:9-46:74
+	android:label
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:46:13-62
+	android:launchMode
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:45:13-48
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:44:13-81
+service#com.github.pires.obd.reader.io.ObdGatewayService
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:48:9-51:40
+	android:launchMode
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:50:13-48
+	android:exported
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:49:13-76
+service#com.github.pires.obd.reader.io.MockObdGatewayService
+ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:52:9-55:40
+	android:launchMode
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:54:13-48
+	android:exported
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml:53:13-80
+uses-sdk
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/c20c8f1ac1d2f71eba719069e716eff4/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/c20c8f1ac1d2f71eba719069e716eff4/AndroidManifest.xml:20:5-43
+MERGED from [:volley] /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/volley/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-43
+MERGED from [:volley] /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/volley/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/support-v4-22.1.1.aar/fae1f09edffaac7c46d6849bfa8c688b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.1.1] /Users/shahil/.gradle/caches/transforms-1/files-1.1/support-v4-22.1.1.aar/fae1f09edffaac7c46d6849bfa8c688b/AndroidManifest.xml:20:5-43
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+		ADDED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/AndroidManifest.xml
