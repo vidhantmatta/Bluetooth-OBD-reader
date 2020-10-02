@@ -23,22 +23,22 @@ public class AnnotationDatabaseImpl extends AnnotationDatabase {
         }
 
         fieldNameSet = new HashSet<String>();
-        fieldNameSet.add("notificationManager");
-        mapClassWithInjectionNameToFieldSet.put("com.github.pires.obd.reader.io.AbstractGatewayService", fieldNameSet);
-
-        fieldNameSet = new HashSet<String>();
         fieldNameSet.add("powerManager");
         fieldNameSet.add("sensorManager");
         fieldNameSet.add("prefs");
-        mapClassWithInjectionNameToFieldSet.put("com.github.pires.obd.reader.activity.MainActivity", fieldNameSet);
+        mapClassWithInjectionNameToFieldSet.put("com.github.bluetooth.obd.reader.activity.MainActivity", fieldNameSet);
 
         fieldNameSet = new HashSet<String>();
         fieldNameSet.add("prefs");
-        mapClassWithInjectionNameToFieldSet.put("com.github.pires.obd.reader.activity.TroubleCodesActivity", fieldNameSet);
+        mapClassWithInjectionNameToFieldSet.put("com.github.bluetooth.obd.reader.activity.TroubleCodesActivity", fieldNameSet);
+
+        fieldNameSet = new HashSet<String>();
+        fieldNameSet.add("notificationManager");
+        mapClassWithInjectionNameToFieldSet.put("com.github.bluetooth.obd.reader.io.AbstractGatewayService", fieldNameSet);
 
         fieldNameSet = new HashSet<String>();
         fieldNameSet.add("prefs");
-        mapClassWithInjectionNameToFieldSet.put("com.github.pires.obd.reader.io.ObdGatewayService", fieldNameSet);
+        mapClassWithInjectionNameToFieldSet.put("com.github.bluetooth.obd.reader.io.ObdGatewayService", fieldNameSet);
 
 
         annotationClassName = "roboguice.inject.InjectView";
@@ -55,7 +55,7 @@ public class AnnotationDatabaseImpl extends AnnotationDatabase {
         fieldNameSet.add("obdStatusTextView");
         fieldNameSet.add("gpsStatusTextView");
         fieldNameSet.add("tl");
-        mapClassWithInjectionNameToFieldSet.put("com.github.pires.obd.reader.activity.MainActivity", fieldNameSet);
+        mapClassWithInjectionNameToFieldSet.put("com.github.bluetooth.obd.reader.activity.MainActivity", fieldNameSet);
 
     }
     
@@ -66,17 +66,17 @@ public class AnnotationDatabaseImpl extends AnnotationDatabase {
     }
     
     public void fillClassesContainingInjectionPointSet(HashSet<String> classesContainingInjectionPointsSet) {
-        classesContainingInjectionPointsSet.add("com.github.pires.obd.reader.io.AbstractGatewayService");
-        classesContainingInjectionPointsSet.add("com.github.pires.obd.reader.activity.MainActivity");
-        classesContainingInjectionPointsSet.add("com.github.pires.obd.reader.activity.TroubleCodesActivity");
-        classesContainingInjectionPointsSet.add("com.github.pires.obd.reader.io.ObdGatewayService");
+        classesContainingInjectionPointsSet.add("com.github.bluetooth.obd.reader.activity.MainActivity");
+        classesContainingInjectionPointsSet.add("com.github.bluetooth.obd.reader.activity.TroubleCodesActivity");
+        classesContainingInjectionPointsSet.add("com.github.bluetooth.obd.reader.io.AbstractGatewayService");
+        classesContainingInjectionPointsSet.add("com.github.bluetooth.obd.reader.io.ObdGatewayService");
     }
     
 
     public void fillBindableClasses(HashSet<String> injectedClasses) {
-        injectedClasses.add("android.widget.LinearLayout");
         injectedClasses.add("android.hardware.SensorManager");
         injectedClasses.add("android.os.PowerManager");
+        injectedClasses.add("android.widget.LinearLayout");
         injectedClasses.add("android.widget.TextView");
         injectedClasses.add("android.content.SharedPreferences");
         injectedClasses.add("android.app.NotificationManager");

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/shahil/Documents/Andriod Projects/obd/android-obd-reader-master/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/media/shahil/DATA/Ubuntu/Repository/AndriodRepo/obd/OBDAR working/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/media/shahil/DATA/Ubuntu/Repository/AndriodRepo/obd/OBDAR working/src/debug/shaders"/></dataSet></merger>

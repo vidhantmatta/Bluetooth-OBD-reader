@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name" translatable="false">OBD-Reader</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">OBD-III Reader</string>
     <string name="action_settings">Settings</string>
-    <string name="action_clear_codes">Clear Codes</string>
+    <string name="action_clear_codes" tools:ignore="MissingTranslation">Clear Codes</string>
     <string name="notification_action">Tap to open OBD-Reader</string>
     <string name="command_list">Choose a command</string>
     <string name="service_starting">Starting OBD connection..</string>
@@ -58,52 +58,52 @@
     <string name="status_obd_ready">OK</string>
     <string name="status_obd_data">receiving data&#8230;</string>
     <string name="status_obd_disconnected">disconnected</string>
-    <string name="status_obd_no_support">NA</string>
-    <string name="pref_upload_title">Enable Data Upload</string>
-    <string name="pref_upload_summaryOff">Enable http data upload</string>
-    <string name="pref_upload_summaryOn">Disable http data upload</string>
-    <string name="pref_upload_url_title">Upload URL</string>
-    <string name="pref_upload_url_summary">POST URL that will accept real-time data</string>
-    <string name="pref_vehicle_id_title">Vehicle ID</string>
-    <string name="pref_vehicle_id_summary">Optional unique id of this vehicle, used with uploaded data</string>
-    <string name="pref_bluetooth_title">Enable Bluetooth</string>
-    <string name="pref_bluetooth_summaryOff">Turn on Bluetooth</string>
-    <string name="pref_bluetooth_summaryOn">Turn off Bluetooth</string>
-    <string name="pref_bluetooth_list_devices_summary">List of paired bluetooth devices.</string>
-    <string name="pref_bluetooth_list_devices_title">Bluetooth Devices</string>
-    <string name="pref_gps_category_title">Enable GPS</string>
-    <string name="pref_gps_category_summaryOff">Turn on GPS</string>
-    <string name="pref_gps_category_summaryOn">Turn off GPS</string>
-    <string name="pref_gps_update_period_title">Update Period in Seconds</string>
-    <string name="pref_gps_update_period_summary">The length of time between querying new position in seconds</string>
-    <string name="pref_gps_distance_period_title">Update Period in Meters</string>
-    <string name="pref_gps_distance_period_summary">Min Distance between location updates, in meters</string>
-    <string name="pref_obd_protocols_title">OBD Protocol</string>
-    <string name="pref_obd_protocols_summary">Select OBD Protocol to use</string>
-    <string name="pref_imperial_units_title">Imperial Units</string>
-    <string name="pref_imperial_units_summaryOff">Enable imperial units</string>
-    <string name="pref_imperial_units_summaryOn">Go back to metric units</string>
-    <string name="pref_obd_update_period_title">Update Period in Seconds</string>
-    <string name="pref_obd_update_period_summary">The length of time between querying vehicle data in seconds</string>
-    <string name="pref_max_fuel_econ_title">Maximum Fuel Economy Value</string>
-    <string name="pref_max_fuel_econ_summary">Any fuel economy values larger than this will be thrown out</string>
-    <string name="pref_volumetric_efficiency_dialog_title">Volumetric Efficiency (eg 0.85)</string>
-    <string name="pref_volumetric_efficiency_summary">Used for fuel economy on vehicles without MAF sensor</string>
-    <string name="pref_volumetric_efficiency_title">Volumetric Efficiency</string>
-    <string name="pref_engine_displacement_title">Engine Displacement (liters)</string>
-    <string name="pref_engine_displacement_summary">Used for fuel economy on vehicles without MAF sensor</string>
-    <string name="pref_reader_config_title">Reader Config Commands</string>
-    <string name="pref_reader_config_summary">Commands to configure bluetooth reader, separate with new line</string>
-    <string name="title_pref_commands_summary">Select the commands you would like to see in real-time.</string>
-    <string name="title_pref_commands_title">OBD Commands</string>
-    <string name="title_pref_full_logging"> Full logging configuration </string>
-    <string name="pref_enable_full_logging_summary"> Enables full offline logging with upload</string>
-    <string name="pref_enable_full_logging_title"> Enable full logging </string>
-    <string name="default_dirname_full_logging">OBDReaderLogs</string>
-    <string name="pref_dirname_dialogTitle">Choose the name of the directory to save the logs</string>
-    <string name="pref_dirname_title">Directory name</string>
-    <string name="pref_dirname_summary">Name of the directory where to save the files</string>
-    <string name="pref_dev_email_title">Developer Email</string>
-    <string name="pref_dev_email_summary">Logs will be emailed to this address</string>
-    <string name="text_noerrors">There were no errors found.!</string>
+    <string name="status_obd_no_support" tools:ignore="MissingTranslation">NA</string>
+    <string name="pref_upload_title" tools:ignore="MissingTranslation">Enable Data Upload</string>
+    <string name="pref_upload_summaryOff" tools:ignore="MissingTranslation">Enable http data upload</string>
+    <string name="pref_upload_summaryOn" tools:ignore="MissingTranslation">Disable http data upload</string>
+    <string name="pref_upload_url_title" tools:ignore="MissingTranslation">Upload URL</string>
+    <string name="pref_upload_url_summary" tools:ignore="MissingTranslation">POST URL that will accept real-time data</string>
+    <string name="pref_vehicle_id_title" tools:ignore="MissingTranslation">Vehicle ID</string>
+    <string name="pref_vehicle_id_summary" tools:ignore="MissingTranslation">Optional unique id of this vehicle, used with uploaded data</string>
+    <string name="pref_bluetooth_title" tools:ignore="MissingTranslation">Enable Bluetooth</string>
+    <string name="pref_bluetooth_summaryOff" tools:ignore="MissingTranslation">Turn on Bluetooth</string>
+    <string name="pref_bluetooth_summaryOn" tools:ignore="MissingTranslation">Turn off Bluetooth</string>
+    <string name="pref_bluetooth_list_devices_summary" tools:ignore="MissingTranslation">List of paired bluetooth devices.</string>
+    <string name="pref_bluetooth_list_devices_title" tools:ignore="MissingTranslation">Bluetooth Devices</string>
+    <string name="pref_gps_category_title" tools:ignore="MissingTranslation">Enable GPS</string>
+    <string name="pref_gps_category_summaryOff" tools:ignore="MissingTranslation">Turn on GPS</string>
+    <string name="pref_gps_category_summaryOn" tools:ignore="MissingTranslation">Turn off GPS</string>
+    <string name="pref_gps_update_period_title" tools:ignore="MissingTranslation">Update Period in Seconds</string>
+    <string name="pref_gps_update_period_summary" tools:ignore="MissingTranslation">The length of time between querying new position in seconds</string>
+    <string name="pref_gps_distance_period_title" tools:ignore="MissingTranslation">Update Period in Meters</string>
+    <string name="pref_gps_distance_period_summary" tools:ignore="MissingTranslation">Min Distance between location updates, in meters</string>
+    <string name="pref_obd_protocols_title" tools:ignore="MissingTranslation">OBD Protocol</string>
+    <string name="pref_obd_protocols_summary" tools:ignore="MissingTranslation">Select OBD Protocol to use</string>
+    <string name="pref_imperial_units_title" tools:ignore="MissingTranslation">Imperial Units</string>
+    <string name="pref_imperial_units_summaryOff" tools:ignore="MissingTranslation">Enable imperial units</string>
+    <string name="pref_imperial_units_summaryOn" tools:ignore="MissingTranslation">Go back to metric units</string>
+    <string name="pref_obd_update_period_title" tools:ignore="MissingTranslation">Update Period in Seconds</string>
+    <string name="pref_obd_update_period_summary" tools:ignore="MissingTranslation">The length of time between querying vehicle data in seconds</string>
+    <string name="pref_max_fuel_econ_title" tools:ignore="MissingTranslation">Maximum Fuel Economy Value</string>
+    <string name="pref_max_fuel_econ_summary" tools:ignore="MissingTranslation">Any fuel economy values larger than this will be thrown out</string>
+    <string name="pref_volumetric_efficiency_dialog_title" tools:ignore="MissingTranslation">Volumetric Efficiency (eg 0.85)</string>
+    <string name="pref_volumetric_efficiency_summary" tools:ignore="MissingTranslation">Used for fuel economy on vehicles without MAF sensor</string>
+    <string name="pref_volumetric_efficiency_title" tools:ignore="MissingTranslation">Volumetric Efficiency</string>
+    <string name="pref_engine_displacement_title" tools:ignore="MissingTranslation">Engine Displacement (liters)</string>
+    <string name="pref_engine_displacement_summary" tools:ignore="MissingTranslation">Used for fuel economy on vehicles without MAF sensor</string>
+    <string name="pref_reader_config_title" tools:ignore="MissingTranslation">Reader Config Commands</string>
+    <string name="pref_reader_config_summary" tools:ignore="MissingTranslation">Commands to configure bluetooth reader, separate with new line</string>
+    <string name="title_pref_commands_summary" tools:ignore="MissingTranslation">Select the commands you would like to see in real-time.</string>
+    <string name="title_pref_commands_title" tools:ignore="MissingTranslation">OBD Commands</string>
+    <string name="title_pref_full_logging" tools:ignore="MissingTranslation"> Full logging configuration </string>
+    <string name="pref_enable_full_logging_summary" tools:ignore="MissingTranslation"> Enables full offline logging with upload</string>
+    <string name="pref_enable_full_logging_title" tools:ignore="MissingTranslation"> Enable full logging </string>
+    <string name="default_dirname_full_logging" tools:ignore="MissingTranslation">OBDReaderLogs</string>
+    <string name="pref_dirname_dialogTitle" tools:ignore="MissingTranslation">Choose the name of the directory to save the logs</string>
+    <string name="pref_dirname_title" tools:ignore="MissingTranslation">Directory name</string>
+    <string name="pref_dirname_summary" tools:ignore="MissingTranslation">Name of the directory where to save the files</string>
+    <string name="pref_dev_email_title" tools:ignore="MissingTranslation">Developer Email</string>
+    <string name="pref_dev_email_summary" tools:ignore="MissingTranslation">Logs will be emailed to this address</string>
+    <string name="text_noerrors" tools:ignore="MissingTranslation">There were no errors found.!</string>
 </resources>
